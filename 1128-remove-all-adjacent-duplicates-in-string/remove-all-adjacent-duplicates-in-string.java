@@ -9,12 +9,10 @@ class Solution {
             if(sb.length() == 0){
                 sb.append(ch);
             }else{
-                if(sb.length() != 0){
-                    if(sb.charAt(sb.length()-1) == ch){
-                        sb.deleteCharAt(sb.length()-1);
-                    } else{
-                        sb.append(ch);
-                    }
+                if(sb.charAt(sb.length()-1) == ch){
+                    sb.deleteCharAt(sb.length()-1);
+                } else{
+                    sb.append(ch);
                 }
             }
         }
